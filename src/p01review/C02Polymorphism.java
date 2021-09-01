@@ -7,8 +7,17 @@ public class C02Polymorphism {
 		Cat c1 = new Cat();
 		Dog d1 = new Dog();
 		
+		a1.cry();
+		c1.cry();
+		d1.cry();
+		
+		System.out.println("========================");
+		
 		Animal a2 = c1;
 		Animal a3 = d1;
+		
+		a2.cry();
+		a3.cry();
 		
 		// Cat c2 = a1;
 		// Dog d2 = a1;
