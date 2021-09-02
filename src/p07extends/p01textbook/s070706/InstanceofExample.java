@@ -17,11 +17,11 @@ public class InstanceofExample {
 	}
 	
 	public static void main(String[] args) {
-		Parent parentA; // 값을 할당 코드 -- 작성
+		Parent parentA = new Child(); // 값을 할당 코드 -- 작성
 		method1(parentA);
 		method2(parentA);
 		
-		Parent parentB; // 값 할당 코드 -- 작성
+		Parent parentB = new Parent(); // 값 할당 코드 -- 작성
 		method1(parentB);
 		method2(parentB);
 	}
