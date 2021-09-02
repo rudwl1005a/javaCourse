@@ -1,6 +1,10 @@
 package p99codingbat;
 
 public class Warmup1 {
+	public boolean parrotTrouble(boolean talking, int hour) {
+		return talking && (hour < 7 || hour > 20);
+	}
+
 	public int diff21(int n) {
 		if (n > 21) {
 			return (n - 21) * 2;
