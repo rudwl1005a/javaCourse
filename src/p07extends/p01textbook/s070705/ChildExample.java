@@ -8,6 +8,7 @@ public class ChildExample {
 		parent.method2();
 		
 		// child 변수 선언, 적절한 값 할당
+		Child child = (Child) parent;
 		
 		child.method3(); // Child-method3
 	}
