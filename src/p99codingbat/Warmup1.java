@@ -1,6 +1,14 @@
 package p99codingbat;
 
 public class Warmup1 {
+	public int diff21(int n) {
+		if (n > 21) {
+			return (n - 21) * 2;
+		} else {
+			return 21 - n;
+		}
+	}
+
 	public boolean sleepIn(boolean weekday, boolean vacation) {
 		/*
 		 * boolean result = !weekday || vacation;
