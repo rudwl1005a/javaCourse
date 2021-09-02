@@ -6,10 +6,10 @@ class Solution1 {
             
             int n = nums[i];
             
-            int s = target - n;
+            int p = target - n;
             
             for (int j = i+1; j < nums.length; j++) {
-                if (nums[j] == s) {
+                if (nums[j] == p) {
                     return new int[] {i, j};
                 }
             }
