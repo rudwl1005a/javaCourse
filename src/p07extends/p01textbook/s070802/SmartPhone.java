@@ -5,4 +5,9 @@ public class SmartPhone extends Phone {
 	public void internetSearch() {
 		System.out.println("인터넷 검색을 합니다.");
 	}
+	
+	@Override
+	public void turnOn() {
+		System.out.println("스마트폰이 켜집니다.");
+	}
 }
