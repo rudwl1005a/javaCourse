@@ -12,5 +12,10 @@ public class Example {
 		p3.turnOn();
 //		p3.internetSearch();
 		
+		// p2변수의 값을 이용해서 autoAnswering 실행
+		// p3변수의 값을 이용해서 internetSearch 실행
+		
 	}
 }
+
+
