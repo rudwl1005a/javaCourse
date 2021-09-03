@@ -11,6 +11,7 @@ public class Quiz02 {
 		System.out.println("최소값:" + Integer.MIN_VALUE);
 		
 		// 정수 (long) 최대값, 최소값
-		
+		System.out.println("long 최대값:" + Long.MAX_VALUE);
+		System.out.println("long 최소값:" + Long.MIN_VALUE);
 	}
 }
