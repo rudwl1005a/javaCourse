@@ -13,6 +13,6 @@ public class Quiz01 {
 		// java api 에서 Math 클래스를 검색해서
 		// PI라는 static field를 사용하세요.
 		
-		
+		return r * r * Math.PI;
 	}
 }

@@ -1,6 +1,6 @@
 package p06class.p03lecture.p01static;
 
-public class StaticEx01 {
+public class StaticEx01Field {
 	public static void main(String[] args) {
 		Class01.id = 3;
 		System.out.println(Class01.id);
