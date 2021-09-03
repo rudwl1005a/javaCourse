@@ -5,5 +5,7 @@ public abstract class Animal {
 
 	public abstract void cry(); // 추상 메소드 (몸통없는 메소드)
 	
-	
+	public void walk() {
+		System.out.println("네발로 걷는다.");
+	}
 }
