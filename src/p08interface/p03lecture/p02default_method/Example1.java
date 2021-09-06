@@ -9,6 +9,9 @@ public class Example1 {
 		Cat c1 = new Cat();
 		c1.sit();
 		c1.roll();
+		
+		Pet p1 = c1;
+		p1.roll();
 	}
 	
 	// 추상 클래스                vs     인터페이스
