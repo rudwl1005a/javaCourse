@@ -5,4 +5,10 @@ public class Dog implements Pet {
 	public void sit() {
 		System.out.println("자리에 앉습니다.");
 	}
+
+	@Override
+	public void otherMethod() {
+		// TODO Auto-generated method stub
+		
+	}
 }

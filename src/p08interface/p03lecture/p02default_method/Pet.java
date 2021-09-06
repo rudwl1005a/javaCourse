@@ -6,4 +6,6 @@ public interface Pet {
 	default void roll() { // 항상 public 
 		System.out.println("구릅니다.");
 	}
+	
+	void otherMethod();
 }

@@ -11,4 +11,10 @@ public class Cat implements Pet {
 	public void roll() {
 		System.out.println("또 무시합니다.");
 	}
+	
+	@Override
+	public void otherMethod() {
+		// TODO Auto-generated method stub
+		
+	}
 }
