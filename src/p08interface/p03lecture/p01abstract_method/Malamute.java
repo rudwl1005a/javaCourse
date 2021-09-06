@@ -1,4 +1,4 @@
-package p08interface.p03lecture;
+package p08interface.p03lecture.p01abstract_method;
 
 public class Malamute extends KindaDog implements Pet, SledDog {
 	@Override
