@@ -83,10 +83,13 @@ public class BankApplication {
 		
 		Account account = findAccount(ano);
 		
-		int balance = account.getBalance() + money;
-		account.setBalance(balance);
+		if (account != null) {
+			int balance = account.getBalance() + money;
+			account.setBalance(balance);
+			
+			System.out.println("결과: 예금이 성공되었습니다.");
+		}
 		
-		System.out.println("결과: 예금이 성공되었습니다.");
 	}
 	
 	private static void withdraw() {
@@ -102,10 +105,12 @@ public class BankApplication {
 		
 		Account account = findAccount(ano);
 		
-		int balance = account.getBalance() - money;
-		account.setBalance(balance);
-		
-		System.out.println("결과: 출금이 성공되었습니다.");
+		if (account != null) {
+			int balance = account.getBalance() - money;
+			account.setBalance(balance);
+			
+			System.out.println("결과: 출금이 성공되었습니다.");
+		}
 	}
 	
 	private static Account findAccount(String ano) {
@@ -115,6 +120,7 @@ public class BankApplication {
 			}
 		}
 		
+		System.out.println("계좌번호가 존재하지 않습니다.");
 		return null;
 	}
 }
