@@ -1,6 +1,6 @@
 package p08interface.p01textbook;
 
-public class RemoteControlExample {
+public class RemoteControlExample1 {
 	public static void main(String[] args) {
 		RemoteControl rc;
 		
