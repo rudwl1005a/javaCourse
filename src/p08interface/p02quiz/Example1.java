@@ -27,5 +27,12 @@ public class Example1 {
 		
 		System.out.println("공격합니다.");
 		hero.attack(); // 무지개공격
+		
+		System.out.println("물검을 장착합니다.");
+		hero.setSword(new WaterSword());
+		
+		System.out.println("공격합니다.");
+		hero.attack();
+		
 	}
 }
