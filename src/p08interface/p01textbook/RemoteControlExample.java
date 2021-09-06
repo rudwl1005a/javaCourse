@@ -11,5 +11,10 @@ public class RemoteControlExample {
 		System.out.println(rc instanceof Audio);
 		
 		System.out.println(rc instanceof Television);
+		
+		rc.turnOn();
+		rc.turnOff();
+		rc.setVolume(3);
+		
 	}
 }
