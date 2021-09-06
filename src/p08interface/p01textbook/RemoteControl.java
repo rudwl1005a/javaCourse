@@ -2,6 +2,9 @@ package p08interface.p01textbook;
 
 public interface RemoteControl {
 	
+	public int MAX_VOLUME = 10; // public static final
+	public int MIN_VOLUME = 0; // public static final
+	
 	public void turnOn();
 	public void turnOff();
 	public void setVolume(int volume);
@@ -14,4 +17,7 @@ public interface RemoteControl {
 		}
 	}
 	
+	public static void changeBatter() {
+		System.out.println("건전지를 교환합니다.");
+	}
 }
