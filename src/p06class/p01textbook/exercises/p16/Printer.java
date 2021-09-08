@@ -1,6 +1,7 @@
 package p06class.p01textbook.exercises.p16;
 
 public class Printer {
+	// 작성 위치
 
 	public void println(int i) {
 		System.out.println(i);
@@ -14,8 +15,7 @@ public class Printer {
 		System.out.println(d);
 	}
 
-	public void println(String string) {
-		System.out.println(string);
+	public void println(String s) {
+		System.out.println(s);
 	}
-
 }

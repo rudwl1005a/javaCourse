@@ -1,10 +1,11 @@
 package p06class.p01textbook.exercises.p20;
 
 public class Account {
-	private String ano;// 계좌번호
-	private String owner;// 계좌주
-	private int balance;// 잔액
-	
+
+	private String ano;
+	private String owner;
+	private int balance;
+
 	public Account(String ano, String owner, int balance) {
 		this.ano = ano;
 		this.owner = owner;
@@ -35,5 +36,4 @@ public class Account {
 		this.balance = balance;
 	}
 
-	
 }
