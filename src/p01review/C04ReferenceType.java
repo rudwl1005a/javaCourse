@@ -12,7 +12,7 @@ public class C04ReferenceType {
 		System.out.println(t1.getSpeed());
 		
 		t1.autoControl();
-//		c1.autoControl();
+//		c1.autoControl();	// 오류!
 	}
 }
 
