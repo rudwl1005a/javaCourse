@@ -18,9 +18,9 @@ public class Ex03 {
 
 class Book {
 
-//	@Override
-//	public int hashCode() {
-//		return 300;
-////		return (int) (Math.random() * 100);
-//	}
+	@Override
+	public int hashCode() {
+		return 300;
+//		return (int) (Math.random() * 100);
+	}
 }
